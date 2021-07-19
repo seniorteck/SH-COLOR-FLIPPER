@@ -66,6 +66,7 @@ Global Styles
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: var(--ff-secondary);
   background: var(--clr-grey-10);
@@ -73,6 +74,7 @@ body {
   line-height: 1.5;
   font-size: 0.875rem;
 }
+
 ul {
   list-style-type: none;
 }
@@ -213,6 +215,11 @@ main {
 }
 
 .color {
+  color: var(--clr-primary-5);
+}
+
+/* controls the color of the second text */
+.color2 {
   color: var(--clr-primary-5);
 }
 
