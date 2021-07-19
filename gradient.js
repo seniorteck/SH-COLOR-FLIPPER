@@ -20,13 +20,13 @@ btn.addEventListener("click", function () {
   color.textContent = hexColor;
   color2.textContent = hexColor2;
 
-  document.body.style.background = "linear-gradient(to right, orange, blue)";
-
+  document.body.style.background = `linear-gradient(${hexColor}, ${hexColor2})`;
 });
 
 function getRandomNumber() {
   return Math.floor(Math.random() * hex.length);
 }
+
 
 
 
